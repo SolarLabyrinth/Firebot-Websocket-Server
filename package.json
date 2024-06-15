@@ -1,6 +1,6 @@
 {
-  "name": "firebot-custom-script-starter",
-  "scriptOutputName": "starterScript",
+  "name": "firebot-websocket-server",
+  "scriptOutputName": "solarWebsocketServer",
   "version": "1.0.0",
   "description": "A starter Firebot custom script",
   "main": "",
@@ -26,5 +26,9 @@
   "volta": {
     "node": "18.18.2",
     "npm": "10.2.4"
+  },
+  "dependencies": {
+    "@types/ws": "^8.5.10",
+    "ws": "^8.17.0"
   }
 }
